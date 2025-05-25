@@ -19,7 +19,7 @@ const SplitScreen = () => {
         start: "top 80%", 
         end: "top 20%", 
         scrub:true, 
-        markers:true
+        // markers:true
       },
     });
 
@@ -107,19 +107,19 @@ const SplitScreen = () => {
       </div>
 
       {/* Right Side: Horizontal panels */}
-      <div ref={rightRef} className="text-4xl w-full h-1/2 overflow-hidden relative md:w-1/2 md:h-full">
+      <div ref={rightRef} className="text-4xl w-full h-1/2 overflow-hidden relative md:w-1/2 md:h-full md:text-6xl lg:text-8xl">
         <div ref={panelContainerRef} className="flex h-full">
           <div className="panel flex-shrink-0 w-full h-[100%] bg-white text-black flex items-center justify-center">
             <h2 className=" font-bold">Cooking</h2>
           </div>
-          <div className="panel flex-shrink-0 w-full h-[100%] bg-blue-500 flex items-center justify-center">
-            <h2 className=" font-bold">Panel 2</h2>
+          <div className="panel flex-shrink-0 w-full h-[100%]  flex items-center justify-center">
+            <img className="rounded-xl shadow-2xl shadow-black h-[80%] aspect-auto" src="/bachelor.webp" alt="" />
           </div>
-          <div className="panel flex-shrink-0 w-full h-[100%] bg-green-500 flex items-center justify-center">
-            <h2 className=" font-bold">Panel 3</h2>
+          <div className="panel flex-shrink-0 w-full h-[100%]  flex items-center justify-center">
+          <img className="rounded-xl shadow-2xl shadow-black h-[80%] aspect-auto" src="/ytcontent.webp" alt="" />
           </div>
-          <div className="panel flex-shrink-0 w-full h-[100%] bg-red-500 flex items-center justify-center">
-            <h2 className=" font-bold">Panel 4</h2>
+          <div className="panel flex-shrink-0 w-full h-[100%]  flex items-center justify-center">
+          <img className="rounded-xl shadow-2xl shadow-black h-[80%] aspect-auto" src="/aweosomeweb.webp" alt="" />
           </div>
           {/* Add more panels as needed */}
         </div>

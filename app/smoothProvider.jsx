@@ -14,13 +14,14 @@ const SmoothScrollProvider = ({ children }) => {
   useEffect(() => {
     if (wrapperRef.current) {
       // Creates a smoother scroll effect on the container.
-      ScrollSmoother.create({
-        smooth: 2, // The amount of time (in seconds) to "catch up" to native scroll.
-        effects: true, // Enables data-speed and data-lag effects on elements.
-        smoothTouch: 0.5, // Smoother scroll on mobile devices.
-        wrapper: wrapperRef.current, // Outer container.
-        content: wrapperRef.current.querySelector("#smooth-content"), // Inner content container.
+      const smoother = ScrollSmoother.create({
+        smooth: 2,  // Smooth scroll effect
+        effects: true, // Enable effects like data-lag
+        smoothTouch: 0.5, // Smoother mobile scrolling
+        wrapper: wrapperRef.current, // Outer container
+        content: wrapperRef.current.querySelector("#smooth-content"), // Inner content
       });
+     
     }
   }, []);
 
