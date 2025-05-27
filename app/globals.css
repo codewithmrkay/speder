@@ -21,7 +21,9 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
-
+@theme {
+  --breakpoint-xs:480px; 
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -30,7 +32,7 @@
 }
 
 body {
-  background: var(--background);
+  background: #d4cac9;
   color: var(--foreground);
   font-family: "baby", sans-serif;
 }

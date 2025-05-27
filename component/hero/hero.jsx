@@ -105,7 +105,7 @@ function Hero() {
                         onMouseLeave={() => { gsap.to(circleRef.current, { scale: 1, duration: 0.3 }) }}
                         onTouchStart={() => { gsap.to(circleRef.current, { scale: 8, duration: 0.3 }); }}
                         onTouchEnd={() => { gsap.to(circleRef.current, { scale: 1, duration: 0.3 }); }}
-                        className="cursor-default text-black text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-center text-nowrap ">
+                        className="cursor-default  text-black text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-center text-nowrap ">
                         Drag the Spider <br />& Unleash Happy <br />Vibes!
                     </h1>
                 </div>

@@ -21,7 +21,7 @@ const SmoothScrollProvider = ({ children }) => {
         wrapper: wrapperRef.current, // Outer container
         content: wrapperRef.current.querySelector("#smooth-content"), // Inner content
       });
-     
+      smoother.effects(".imgParallex", { speed: "auto" });
     }
   }, []);
 
