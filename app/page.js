@@ -10,16 +10,16 @@ import AboutMe from "@/component/aboutme/about.jsx";
 export default function Home() {
   return (
     <SmoothScrollProvider>
-      {/* <section className="min-h-screen flex items-center justify-center bg-[#d4cac9]">
+      <section className="min-h-screen flex items-center justify-center bg-[#d4cac9]">
         <Hero/>
-      </section> */}
-      {/* <section className=" bg-[#d4cac9]">
+      </section>
+      <section className=" bg-[#d4cac9]">
         <SplitScreen/>
-      </section> */}
-      {/* <section className="mywork bg-[#d4cac9]">
+      </section>
+      <section className="mywork bg-[#d4cac9]">
         <Page/>
-      </section> */}
-      {/* <section className="mywork min-h-screen flex items-center justify-center bg-[#d4cac9]">
+      </section>
+      <section className="mywork min-h-screen flex items-center justify-center bg-[#d4cac9]">
         <TripParallex/>
       </section>
       <section className="mywork min-h-screen flex items-center justify-center bg-[#d4cac9]">
@@ -27,9 +27,9 @@ export default function Home() {
       </section>
       <section className="mywork min-h-screen flex items-center justify-center bg-[#d4cac9]">
         <BioParallex/>
-      </section> */}
+      </section>
       <section className="min-h-screen flex items-center justify-center bg-green-300">
-       <AboutMe/>
+       {/* <AboutMe/> */}
       </section>
       <section className="min-h-screen flex items-center justify-center bg-green-500">
        <h1>scroll the laal</h1>
