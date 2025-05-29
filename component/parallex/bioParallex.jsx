@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function SmediaParallex() {
@@ -10,16 +11,16 @@ function SmediaParallex() {
                     src="/bioProject.webp" alt="" />
             </div>
             <div className='h-40 w-[100%] flex flex-col items-center justify-center lg:w-[60%]'>
-                <h1  className='text-black text-2xl xs:text-4xl'><span className='text-3xl md:text-5xl font-sans font-bold'>2</span>.Personal Insta Page</h1>
+                <h1  className='text-black text-2xl xs:text-4xl'><span className='text-3xl md:text-5xl font-sans font-bold'>3</span>.Personal Insta Page</h1>
                 <div className='w-full flex items-center justify-around h-[80%] lg:px-20'>
                     <div data-lag="1">
                         <a target="_blank" href="https://github.com/codewithmrkay/post">
-                            <img className='w-15 sm:w-20 aspect-square object-center' src="/github.svg" alt="" />
+                            <img  className='w-15 sm:w-20 aspect-square object-center' src="/github.svg" alt="" />
                         </a>
                     </div>
                     <div data-lag="1.3">
                         <a target="_blank" href="https://post-vu47.vercel.app/">
-                            <img className='w-15 sm:w-20 aspect-square' src="/golive.svg" alt="" />
+                            <img  className='w-15 sm:w-20 aspect-square' src="/golive.svg" alt="" />
                         </a>
                         Go Live
                     </div>

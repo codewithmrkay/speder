@@ -4,7 +4,7 @@ function SmediaParallex() {
     return (
         <div 
         className='flex flex-col items-center justify-evenly px-5 w-full h-screen relative overflow-hidden text-black xs:px-10 sm:px-15 md:px-30 lg:flex-row lg:px-10'>
-            <div className='h-40 w-[100%] flex flex-col items-center justify-center lg:w-[60%]'>
+            <div className='h-40 w-[100%] flex flex-col items-center justify-center lg:w-[60%] order-2 lg:order-1'>
                 <h1  className='text-black text-2xl xs:text-4xl'><span className='text-3xl md:text-5xl font-sans font-bold'>2</span>.Social Media App<br /><span className='inline-block mt-5'>With Ai Chat-Bot</span></h1>
                 <div className='w-full flex items-center justify-around h-[80%] lg:px-20'>
                     <div data-lag="1">
@@ -20,7 +20,7 @@ function SmediaParallex() {
                     </div>
                 </div>
             </div>
-            <div className="relative overflow-hidden h-[40%] w-[80%] xs:h-[50%] sm:h-[50%] md:h-[50%] lg:h-[90%] lg:mt-0">
+            <div className="relative overflow-hidden h-[40%] w-[80%] xs:h-[50%] sm:h-[50%] md:h-[50%] lg:h-[90%] lg:mt-0 order-1 lg:order-2">
                 <img
                     className="imgParallex absolute w-full h-[120%] object-cover bottom-[0]"
                     src="/smediaProject.webp" alt="" />
